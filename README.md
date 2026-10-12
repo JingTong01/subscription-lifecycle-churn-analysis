@@ -30,11 +30,11 @@ End-to-end analysis of a paid music-streaming subscription service (KKBox, ~23M 
 | 1 | Load raw data into DuckDB, convert to Parquet | ✅ Done |
 | 2 | Profile the data | ✅ Done |
 | 3 | Clean the data, with a documented cleaning log | ✅ Done |
-| 4 | Build subscription spells (SQL gaps-and-islands) | ✅ Done |
+| 4 | Build subscription spells | ✅ Done |
 | 5 | Monthly KPIs and cohort retention | ⏳ Next |
-| 6 | Survival analysis (Kaplan-Meier, Cox) | ⬜ Planned |
+| 6 | Survival analysis  | ⬜ Planned |
 | 7 | Engagement and lifecycle analysis | ⬜ Planned |
-| 8 | Churn prediction model (optional) | ⬜ Planned |
+| 8 | Churn prediction model  | ⬜ Planned |
 | 9 | Dashboard | ⬜ Planned |
 | 10 | Business recommendations | ⬜ Planned |
 
