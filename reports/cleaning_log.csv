@@ -1,0 +1,11 @@
+table,rule,rows_affected,pct_of_table
+transactions,Exact duplicate rows removed,3339,0.01
+transactions,Payments with expiry before payment date dropped,6462,0.03
+transactions,"0-day plans that are not cancellations (kept, flagged)",854136,3.72
+transactions,"Free transactions (kept, flagged)",1218324,5.3
+transactions,"Discounted transactions (kept, flagged)",306169,1.33
+members,Implausible age set to NULL,4549108,67.2
+members,Missing gender set to 'unknown',4429505,65.43
+user_logs,Rows merged into one row per user-day,0,0.0
+user_logs,Rows with negative listening time (set to 0),0,0.0
+user_logs,User-days over 24 h listening (capped),4200,0.02
